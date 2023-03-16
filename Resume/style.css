@@ -1,0 +1,336 @@
+.deem{
+    width:250px;
+    height: 350px;
+    background-color: dodgerblue;
+}
+.md{
+    width:250px;
+    height:1000px;
+    background-color:  black;
+
+}
+.cid{
+    float: left;
+}
+.circal{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.text{
+    position: relative;
+    top: 80px;
+    left:25px;
+    font-size:25px ; 
+    color: black;
+}
+.a{
+     width:180px;
+     border: 1px solid white;
+     position: relative;
+     top:30px;
+     left:35px;
+
+    
+}
+.b{
+    width:180px;
+    border:1px solid white;
+    position: relative;
+    top:115px;
+    left:35px;
+}
+.c{
+    width:180px;
+    border:1px solid white;
+    position: relative;
+    top:195px;
+    left:35px;
+
+}
+.text1{
+    color:white;
+    position: relative;
+    top:25px;
+    font-size: x-large;
+    left: 70px;
+
+}
+.text2{
+    color:white;
+    position: relative;
+    top:110px;
+    font-size: x-large;
+    left: 70px;
+}
+.text3{
+    color:rgb(239, 240, 248);
+    position: relative;
+    top:190px;
+    font-size: x-large;
+    left: 70px;
+}
+.fa-user {
+    color:rgb(92, 182, 231);
+    position: relative;
+    left:32px;
+    bottom: 20px;
+    font-size: 25px;
+    top:47px;
+}
+.fa-graduation-cap{
+    color:rgb(61, 159, 229);
+    position: relative;
+    left:32px;
+    top: 130px;
+    font-size: 25px;
+}
+.fa-language{
+    color:rgb(50, 137, 223);
+    position: relative;
+    left:32px;
+    top: 215px;
+    font-size: 25px;
+}
+.fa-phone{
+    color: aliceblue;
+    font-size: 20px;
+}
+.numb{
+    color:gray;
+    position: relative;
+    left:30px;
+    bottom: 28px;
+
+}
+.dc{
+    color:white;
+    position: relative;
+    left:30px;
+    bottom: 30px;
+    font-size: 20px;
+}
+.fa-envelope{
+    color:aliceblue;
+}
+.memail{
+    color: gray;
+    position: relative;
+    left:30px;
+    bottom: 28px;
+}
+.email{
+    color: aliceblue;
+    position: relative;
+    left:30px;
+    bottom: 30px;
+}
+.fa-house{
+     color:aliceblue;
+     
+}
+.add{
+    color:aliceblue;
+    position: relative;
+    left:30px;
+    bottom: 30px;
+}
+.oadd{
+    color:gray;
+    position: relative;
+    left:30px;
+    bottom: 28px;
+}
+.alltext{
+    position: relative;
+    top:80px;
+    left:35px;
+}
+.fa-circle-dot{
+    color:aliceblue;
+}
+.date{
+    color:aliceblue;
+}
+.uni{
+    color:aliceblue;
+}
+.comdate{
+    color:aliceblue;
+}
+.ins{
+    color:aliceblue;
+}
+.skil{
+    position: relative;
+    top:160px;
+    left:35px;
+
+}
+.date{
+    position: relative;
+    left: 30px;
+     bottom: 20px;
+     color:aliceblue;
+
+}
+.uni{
+    position: relative;
+    left: 30px;
+     bottom: 20px;
+     color:gray
+
+
+
+}
+.comdate{
+    position: relative;
+    left: 30px;
+     bottom: 20px;
+     color:aliceblue;
+
+
+}
+.ins{
+    position: relative;
+    left: 30px;
+     bottom: 15px;
+     color:gray
+
+
+}
+.range{
+    color:aliceblue;
+    position: relative;
+    top:230px;
+    left:20px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+.sir{
+    position: relative;
+    left: 30px;
+
+}
+.sidecontent{
+    position: relative;
+    left: 25px;
+    font-size: x-large;
+}
+.z1{
+    position: relative;
+    top: 30px;
+}
+.z2{
+    position: relative;
+    top: 90px;
+}
+.z3{
+    position: relative;
+    top: 150px;
+}
+.z4{
+    position: relative;
+    top: 200px;
+}
+.border1{
+    width:100%;
+    border:1px solid black ;
+    position: relative;
+    left: 250px;
+
+}
+.border2{
+    width:100%;
+    border:1px solid black ;
+    position: relative;
+    left: 250px;
+
+
+}
+
+.border3{
+    width:100%;
+    border:1px solid black ;
+    position: relative;
+    left: 250px;
+
+
+}
+.border4{
+    width:100%;
+    border:1px solid black ;
+    position: relative;
+    left: 250px;
+}
+.fa-sharp{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
+}
+.fa-briefcase{
+    color: rgb(38, 147, 231);
+}
+.fa-earth-americas{
+    color:rgb(55, 153, 222)
+}
+.fa-address-card{
+    color:rgb(27, 138, 207)
+}
+ul{
+    position: relative;
+    left: 30px;
+}
+.aa{
+    position: relative;
+    font-size:xx-large;
+
+    
+}
+.bb{
+    position: relative;
+    left: 500px;
+    top:-70px;
+    font-size:xx-large;
+
+}
+.cc{
+    position: relative;
+    top:-30px;
+    font-size:xx-large;
+
+}
+.dd{
+    position: relative;
+    left: 500px;
+    top:-90px;
+    font-size:xx-large;
+}
+.ee{
+    top:-50px;
+    font-size:xx-large;
+
+}
+.ff{
+    position: relative;
+    left:500px;
+    top:-120px;
+    font-size:xx-large;
+
+}
+.gg{
+    top:-75px;
+    font-size:xx-large;
+
+}
+
+
+
+
+
