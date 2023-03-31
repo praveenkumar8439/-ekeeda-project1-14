@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Ekeedapro4</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="back">
+        <h1 style="margin-left: 80px;">Body mass Index Calculator</h1>
+        <form  id="form" onsubmit="return validateform()">
+            <div class="center">
+                <div class="age">
+                    <input type="text" id="text" name="age">
+                    <label for="age" class="font">age</label>
+                    <input type="radio" id="checkbox" value="Female" name="gender">
+                    <label for="Female" class="font">Female</label>
+                    <input type="radio"  id="male" value="male" name="gender">
+                    <label for="Male" class="font">male</label>
+
+                </div>
+                <div class="height">
+                    <input type="text" id="Height" name="radio">
+                    <label for="height" style="font-size: 22px;"> Height (cm)</label>
+                    <input type="text" id="Weight" name="weight">
+                    <label for="weight" class="font" class="font;"> Weight (kg)</label>
+                </div>
+                <button type="button" id="submit">submit</button>
+            </div>
+            <div class="res">
+            <h1 id="h1" style="color:blue"></h1>
+            <h3 id="h2" style="color:rgb(244, 13, 13)"></h3>
+            </div>
+        </form>
+
+
+        </div>
+        <script src="jdk.js"></script>
+
+
+    </body>
+</html>
