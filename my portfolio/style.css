@@ -1,0 +1,190 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+html::-webkit-scrollbar{
+    width:15px;
+    height:10px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+html{
+    font-size: 55%;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+#nav{
+    overflow-x: hidden;
+    background: #1a1919;
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    /* font-size: 2.5rem; */
+    /* padding: 2rem; */
+    /* width: 740px; */
+    display: none;
+}
+footer{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background-color: rgb(24, 16, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+header .container img{
+    height: 17rem;
+    width: 17rem;
+    margin-top: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid rgb(99, 99, 98);
+}
+header .sider{
+    width: 100%;
+}
+header .sider h2 a{
+ text-decoration: none;
+ /* padding: 1rem; */
+ color: white;
+
+ font-size: 2rem;
+
+}
+#nav #menu{
+    cursor: pointer;
+    font-size: 3rem;
+    float: right;
+    padding-right: 10px;
+}
+.about{
+    display: flex;
+    flex-flow: column;
+     justify-content: center;
+    flex-direction: column;
+    padding-left:40rem;
+}
+section{
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+section h1{
+    font-size: 50px;
+}
+section .heading{
+    padding-bottom: 60px;
+}
+h2{
+    font-size: 30px;
+}
+
+.about p{
+    font-size: 5px;
+    color: rgb(15, 13, 13);
+}
+
+ /* education */
+.edu{
+    font-size: 20px;
+    padding-bottom: 20px;
+} 
+.span{
+    font-size: 20px;
+}
+
+
+.pro{
+    padding-bottom:10px;
+}
+
+
+
+.skill{
+    padding-bottom: 30px;
+}
+.about#SKILLS{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+#menu1{
+    /* margin-right: 200px; */
+    float: right;
+    text-decoration: none;
+    width: 712px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+    display: none;
+    
+
+
+}
+
+
+/* media q */
+@media(max-width:1100px){
+    html{
+        font-size: 70%;
+    }
+    .about{
+        padding: 1rem 1rem;
+    }
+}
+@media(max-width:808px) {
+    html{
+        font-size: 50%;
+    }
+}
+    
+@media (max-width:991px){
+    header{
+        left:-110%;
+    }
+    #nav{
+        display: block;
+    }
+    #name{
+        display: none;
+    }
+    #menu1{
+        display:block;
+    }
+    header .toggle{
+        left:0%
+        
+    }
+    /* body{
+        padding: 0;
+    } */
+}
+@media(max-width:400px){
+    header{
+        width:100vw;
+    }
+}
