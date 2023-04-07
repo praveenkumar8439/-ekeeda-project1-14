@@ -1,0 +1,114 @@
+
+body{
+    /* height: 50%;
+    width: 80%; */
+    /* text-align: center; */
+    background-color:rgb(15, 110, 109);
+}
+.mob{
+    text-align: center;
+}
+nav{
+    margin-left: 10px;
+    display: flex;
+    width: 100%;
+    
+}
+nav h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(181, 228, 132)
+    /* width: 150px; */
+}
+nav button{
+    margin-left: 80%;
+    height: 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 6px;
+    color: rgb(13, 179, 191);
+    
+}
+
+.quote{
+    background-color: rgb(60, 128, 143);
+    text-align: center;
+    justify-content: center;
+    height: 350px;
+    border-radius: 5px;
+    padding: 20px;
+   height: fit-content;
+   
+    width: 82%;
+    margin-left: 90px;
+    
+
+}
+#abot{
+display: none;
+position: absolute;
+margin-right: 110px;
+/* padding: 50px; */
+height: 250px;
+border-radius: 10px;
+justify-content: center;
+background-color: aqua;
+}
+
+#quot{
+    font-size: 30px;
+    color: rgb(25, 1, 48);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#quot::before{
+  content: '\275D';
+  font-size: 2rem;
+  color: rgb(109, 184, 11);
+
+}
+#quot::after{
+    color: rgb(109, 184, 11);
+    content: '\275E';
+    font-size: 2rem;
+}
+#author{
+    font-size: large;
+}
+.btns{
+    justify-content: center;
+    text-align: center;
+   
+    padding-top: 280px;
+   
+
+}
+
+.bot{
+    text-align: center;
+    background-color: rgb(42, 116, 133);
+    width: 82%;
+    justify-content: center;
+    margin-left: 8.4%;
+}
+ h1{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.butt{
+    width: 100%;
+}
+
+.butt button{
+    margin: 20px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(139, 197, 197);
+}
+footer{
+    color: white;
+    text-align: center;
+}
