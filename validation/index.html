@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <div class="container">
+          <form action="" name="myForm" onsubmit="return validateForm()" class="form">
+       
+            <h1 class="title"style="color:rgba(10, 229, 229, 0.849)">Validation form </h1>
+            <hr class="hr" style="margin-bottom: 30px;height: 3px;background-color: rgb(13, 159, 244);">
+            <div class="main">
+               <div class="firstname">
+                 <input id="name" type="text" placeholder="enter first name" name="fname">
+                  <span id="fname"></span>
+                </div>
+                <div class="firstname">
+                  <input id="secondname" type="text" placeholder="enter last name " name="last name">
+                  <span id="second"></span>
+                </div>
+            </div>
+            <div class="main">
+                <div class="firstname">
+                  <input id="email" type="text" placeholder="enter your email" name="email" value="" >
+                   <span id="emailes"></span>
+                 </div>
+                 <div class="firstname">
+                   <input id="mobile" type="text" placeholder="enter your mobile no " name="mobile" value="" >
+                   <span id="mobi"></span>
+                 </div>
+             </div>
+             <div class="main">
+                <div class="firstname">
+                  <input id="password" type="password" placeholder="enter your password" name="password" >
+                   <span id="ppass"></span>
+                 </div>
+                 <div class="firstname">
+                   <input id="cpassword" type="password" placeholder="enter your conform password " name="cpassword" >
+                   <span id="cpass"></span>
+                 </div>
+             </div>
+
+            <!-- <input id="email" type="text" placeholder="enter your email id " name="email">
+            <input id="mobile" type="text" placeholder="enter mob number " name="mobile no">
+            <input id="pass" type="text" placeholder="enter your password">
+            <input id="pass" type="text" placeholder="enter your conform password"> -->
+            <!-- <h2>Submit</h2> -->
+            <input class="button" type="submit" value="Submit">
+          </form>
+        </div>
+        <script src="validation.js"></script>
+    </body>
+</html>
